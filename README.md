@@ -14,7 +14,7 @@ I built a detector that looks at an image and decides whether it is a **real pho
 
 **Latency:** ~400 ms per image on CPU (model loaded in memory, pure inference time — no disk I/O per request).
 
-**Cost:** Running on a cloud CPU server (~$0.04/hr), the cost works out to roughly **$0.004 – $0.009 per 1,000 images**. **~$2–$5 per million images** on a CPU cloud instance **(AWS t3.medium at ~$0.04/hr, model kept loaded in memory between requests, ~2.5–5 images/sec depending on whether both cores are used in parallel)**. No GPU required. On-device deployment costs nothing.
+**Cost:** Running on a cloud CPU server (~$0.04/hr), the cost works out to roughly. **$0.004 – $0.009 per 1,000 images**. **~$2–$5 per million images** on a CPU cloud instance **(AWS t3.medium at ~$0.04/hr, model kept loaded in memory between requests, ~2.5–5 images/sec depending on whether both cores are used in parallel)**. No GPU required. On-device deployment costs nothing.
 
 ---
 
